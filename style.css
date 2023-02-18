@@ -1,0 +1,92 @@
+.container {
+  margin: 50px;
+  height: 415px;
+  width: 250px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#loadingContainer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loadingCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lodingGif{
+  height: 50px;
+}
+#phonepeLogo{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#phonepeLogo>img{
+  margin-top: 30px;
+}
+#balance{
+  text-align: center;
+  /* background-color: yellow; */
+}
+#balance>span{
+  /* background-color: #6739b7; */
+  font-size:large;
+  font-weight: 600;
+}
+#upperBorder {
+  height: 15px;
+  background-color: #6739b7;
+}
+#upilogo {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+#UpiImg > img {
+  height: 30px;
+  width: auto;
+}
+#bottomBorder {
+  height: 15px;
+  background-color: #6739b7;
+}
+#txt {
+  font-size: small;
+  text-align: center;
+}
+#input {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 40px);
+}
+#input > input {
+  text-align: center;
+  height: 30px;
+  width: auto;
+}
+#keyboard {
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(3, 83px);
+  grid-template-rows: repeat(4, 50px);
+}
+#keyboard > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 244, 244);
+  color: #6739b7;
+  font-weight: 600;
+  font-size: large;
+}
+#bottom {
+  background-color: aliceblue;
+  height: 15px;
+}
